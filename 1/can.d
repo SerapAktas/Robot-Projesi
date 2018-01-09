@@ -1,0 +1,9 @@
+can.o: ..\driver\driverlib\can.c
+can.o: ..\driver\driverlib\inc/hw_can.h
+can.o: ..\driver\driverlib\inc/hw_ints.h
+can.o: ..\driver\driverlib\inc/hw_nvic.h
+can.o: ..\driver\driverlib\inc/hw_memmap.h
+can.o: ..\driver\driverlib\inc/hw_types.h
+can.o: ..\driver\driverlib\driverlib/can.h
+can.o: ..\driver\driverlib\driverlib/debug.h
+can.o: ..\driver\driverlib\driverlib/interrupt.h

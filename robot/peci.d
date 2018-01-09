@@ -1,0 +1,9 @@
+peci.o: ..\driver\driverlib\peci.c
+peci.o: ..\driver\driverlib\inc/hw_ints.h
+peci.o: ..\driver\driverlib\inc/hw_memmap.h
+peci.o: ..\driver\driverlib\inc/hw_peci.h
+peci.o: ..\driver\driverlib\inc/hw_sysctl.h
+peci.o: ..\driver\driverlib\inc/hw_types.h
+peci.o: ..\driver\driverlib\driverlib/debug.h
+peci.o: ..\driver\driverlib\driverlib/interrupt.h
+peci.o: ..\driver\driverlib\driverlib/peci.h

@@ -1,0 +1,4 @@
+--cpu Cortex-M4.fp "startup.o" "roboteski.o" "adc.o" "can.o" "comp.o" "cpu.o" "eeprom.o" "epi.o" "ethernet.o" "fan.o" "flash.o" "fpu.o" "gpio.o" "hibernate.o" "i2c.o" "i2s.o" "interrupt.o" "lpc.o" "mpu.o" "peci.o" "pwm.o" "qei.o" "ssi.o" "sysctl.o" "sysexc.o" "systick.o" "timer.o" "uart.o" "udma.o" "usb.o" "watchdog.o" "uartstdio.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\roboteski.map" -o roboteski.axf

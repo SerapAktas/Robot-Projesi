@@ -1,0 +1,10 @@
+gpio.o: ..\driver\driverlib\gpio.c
+gpio.o: ..\driver\driverlib\inc/hw_gpio.h
+gpio.o: ..\driver\driverlib\inc/hw_ints.h
+gpio.o: ..\driver\driverlib\inc/hw_memmap.h
+gpio.o: ..\driver\driverlib\inc/hw_sysctl.h
+gpio.o: ..\driver\driverlib\inc/hw_types.h
+gpio.o: ..\driver\driverlib\driverlib/debug.h
+gpio.o: ..\driver\driverlib\driverlib/gpio.h
+gpio.o: ..\driver\driverlib\driverlib/pin_map.h
+gpio.o: ..\driver\driverlib\driverlib/interrupt.h

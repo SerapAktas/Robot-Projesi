@@ -1,0 +1,11 @@
+eeprom.o: ..\driver\driverlib\eeprom.c
+eeprom.o: ..\driver\driverlib\inc/hw_eeprom.h
+eeprom.o: ..\driver\driverlib\inc/hw_flash.h
+eeprom.o: ..\driver\driverlib\inc/hw_ints.h
+eeprom.o: ..\driver\driverlib\inc/hw_sysctl.h
+eeprom.o: ..\driver\driverlib\inc/hw_types.h
+eeprom.o: ..\driver\driverlib\driverlib/debug.h
+eeprom.o: ..\driver\driverlib\driverlib/flash.h
+eeprom.o: ..\driver\driverlib\driverlib/interrupt.h
+eeprom.o: ..\driver\driverlib\driverlib/sysctl.h
+eeprom.o: ..\driver\driverlib\driverlib/eeprom.h

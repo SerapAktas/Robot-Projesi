@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\driver\driverlib -I..\driver\driverlib\inc -I..\driver\utils 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\Luminary 
+-o "sonrobot.o" --omf_browse "sonrobot.crf" --depend "sonrobot.d" "..\robot\sonrobot.c"

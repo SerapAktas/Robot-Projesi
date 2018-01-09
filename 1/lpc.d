@@ -1,0 +1,9 @@
+lpc.o: ..\driver\driverlib\lpc.c
+lpc.o: ..\driver\driverlib\inc/hw_ints.h
+lpc.o: ..\driver\driverlib\inc/hw_memmap.h
+lpc.o: ..\driver\driverlib\inc/hw_lpc.h
+lpc.o: ..\driver\driverlib\inc/hw_sysctl.h
+lpc.o: ..\driver\driverlib\inc/hw_types.h
+lpc.o: ..\driver\driverlib\driverlib/debug.h
+lpc.o: ..\driver\driverlib\driverlib/interrupt.h
+lpc.o: ..\driver\driverlib\driverlib/lpc.h

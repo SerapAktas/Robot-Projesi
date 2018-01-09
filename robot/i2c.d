@@ -1,0 +1,10 @@
+i2c.o: ..\driver\driverlib\i2c.c
+i2c.o: ..\driver\driverlib\inc/hw_i2c.h
+i2c.o: ..\driver\driverlib\inc/hw_ints.h
+i2c.o: ..\driver\driverlib\inc/hw_memmap.h
+i2c.o: ..\driver\driverlib\inc/hw_sysctl.h
+i2c.o: ..\driver\driverlib\inc/hw_types.h
+i2c.o: ..\driver\driverlib\driverlib/debug.h
+i2c.o: ..\driver\driverlib\driverlib/i2c.h
+i2c.o: ..\driver\driverlib\driverlib/driverlib/sysctl.h
+i2c.o: ..\driver\driverlib\driverlib/interrupt.h

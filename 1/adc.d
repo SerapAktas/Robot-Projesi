@@ -1,0 +1,9 @@
+adc.o: ..\driver\driverlib\adc.c
+adc.o: ..\driver\driverlib\inc/hw_adc.h
+adc.o: ..\driver\driverlib\inc/hw_ints.h
+adc.o: ..\driver\driverlib\inc/hw_memmap.h
+adc.o: ..\driver\driverlib\inc/hw_types.h
+adc.o: ..\driver\driverlib\inc/hw_sysctl.h
+adc.o: ..\driver\driverlib\driverlib/adc.h
+adc.o: ..\driver\driverlib\driverlib/debug.h
+adc.o: ..\driver\driverlib\driverlib/interrupt.h

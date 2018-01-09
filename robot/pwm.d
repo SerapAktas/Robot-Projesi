@@ -1,0 +1,9 @@
+pwm.o: ..\driver\driverlib\pwm.c
+pwm.o: ..\driver\driverlib\inc/hw_ints.h
+pwm.o: ..\driver\driverlib\inc/hw_memmap.h
+pwm.o: ..\driver\driverlib\inc/hw_pwm.h
+pwm.o: ..\driver\driverlib\inc/hw_sysctl.h
+pwm.o: ..\driver\driverlib\inc/hw_types.h
+pwm.o: ..\driver\driverlib\driverlib/debug.h
+pwm.o: ..\driver\driverlib\driverlib/interrupt.h
+pwm.o: ..\driver\driverlib\driverlib/pwm.h

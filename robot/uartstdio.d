@@ -1,0 +1,14 @@
+uartstdio.o: ..\driver\utils\uartstdio.c
+uartstdio.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+uartstdio.o: ..\driver\driverlib\inc/hw_ints.h
+uartstdio.o: ..\driver\driverlib\inc/hw_memmap.h
+uartstdio.o: ..\driver\driverlib\inc/hw_types.h
+uartstdio.o: ..\driver\driverlib\inc/hw_uart.h
+uartstdio.o: ..\driver\driverlib\driverlib/debug.h
+uartstdio.o: ..\driver\driverlib\driverlib/interrupt.h
+uartstdio.o: ..\driver\driverlib\driverlib/rom.h
+uartstdio.o: ..\driver\driverlib\driverlib/rom_map.h
+uartstdio.o: ..\driver\driverlib\driverlib/sysctl.h
+uartstdio.o: ..\driver\driverlib\driverlib/uart.h
+uartstdio.o: ..\driver\driverlib\driverlib/driverlib/sysctl.h
+uartstdio.o: ..\driver\utils\uartstdio.h

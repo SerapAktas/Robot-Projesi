@@ -1,0 +1,9 @@
+ssi.o: ..\driver\driverlib\ssi.c
+ssi.o: ..\driver\driverlib\inc/hw_ints.h
+ssi.o: ..\driver\driverlib\inc/hw_memmap.h
+ssi.o: ..\driver\driverlib\inc/hw_ssi.h
+ssi.o: ..\driver\driverlib\inc/hw_types.h
+ssi.o: ..\driver\driverlib\driverlib/debug.h
+ssi.o: ..\driver\driverlib\driverlib/interrupt.h
+ssi.o: ..\driver\driverlib\driverlib/ssi.h
+ssi.o: ..\driver\driverlib\driverlib/driverlib/sysctl.h

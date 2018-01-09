@@ -1,0 +1,50 @@
+*** Creating Trace Output File 'roboteski.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"roboteski.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"can.o"'
+### List of Objects: adding '"comp.o"'
+### List of Objects: adding '"cpu.o"'
+### List of Objects: adding '"eeprom.o"'
+### List of Objects: adding '"epi.o"'
+### List of Objects: adding '"ethernet.o"'
+### List of Objects: adding '"fan.o"'
+### List of Objects: adding '"flash.o"'
+### List of Objects: adding '"fpu.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"hibernate.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"i2s.o"'
+### List of Objects: adding '"interrupt.o"'
+### List of Objects: adding '"lpc.o"'
+### List of Objects: adding '"mpu.o"'
+### List of Objects: adding '"peci.o"'
+### List of Objects: adding '"pwm.o"'
+### List of Objects: adding '"qei.o"'
+### List of Objects: adding '"ssi.o"'
+### List of Objects: adding '"sysctl.o"'
+### List of Objects: adding '"sysexc.o"'
+### List of Objects: adding '"systick.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"udma.o"'
+### List of Objects: adding '"usb.o"'
+### List of Objects: adding '"watchdog.o"'
+### List of Objects: adding '"uartstdio.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "startup.o" "roboteski.o" "adc.o" "can.o" "comp.o" "cpu.o" "eeprom.o" "epi.o" "ethernet.o" "fan.o" "flash.o" "fpu.o" "gpio.o" "hibernate.o" "i2c.o" "i2s.o" "interrupt.o" "lpc.o" "mpu.o" "peci.o" "pwm.o" "qei.o" "ssi.o" "sysctl.o" "sysexc.o" "systick.o" "timer.o" "uart.o" "udma.o" "usb.o" "watchdog.o" "uartstdio.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\roboteski.map" -o roboteski.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'roboteski.axf'
+### ADS-LD Command File: 'roboteski.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'roboteski.lnp', Handle=0x000002D4
+### Writing '.lnp' file
+### ADS-LD Command file 'roboteski.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
